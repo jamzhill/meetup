@@ -10,7 +10,7 @@ const loggers = {
 
 module.exports = {
   development: {
-    sitename: 'Roux Meetups [Development]',
+    sitename: 'Meetups [Development]',
     log: loggers.development,
     data: {
       speakers: path.join(__dirname, '../data/speakers.json'),
@@ -22,7 +22,7 @@ module.exports = {
     },
   },
   production: {
-    sitename: 'Roux Meetups',
+    sitename: 'Meetups',
     log: loggers.production,
     data: {
       speakers: path.join(__dirname, '../data/speakers.json'),
@@ -34,7 +34,7 @@ module.exports = {
     },
   },
   test: {
-    sitename: 'Roux Meetups [Test]',
+    sitename: 'Meetups [Test]',
     log: loggers.test,
     data: {
       speakers: path.join(__dirname, '../data/speakers.json'),

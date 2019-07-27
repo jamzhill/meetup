@@ -12,14 +12,14 @@ module.exports = {
   deploy: {
     production: {
       user: 'nodejs',
-      host: '<CHANGE_TO_YOUR_HOST>',
+      host: 'http://reactify.azurewebsites.net',
       ref: 'origin/master',
-      repo: '<CHANGE_TO_YOUR_GITHUB_REPO>',
+      repo: 'https://github.com/jamzhill/meetup',
 
-      // Make sure this directory exists on your server or change this entry to match your directory structure
-      path: '/home/nodejs/deploy',
-
-      'post-deploy': 'cp ../.env ./ && npm install && pm2 startOrRestart ecosystem.config.js --env production',
+      // Make sure this directory exists on your server or change this entry to match your structure
+      // path: '/home/nodejs/deploy',
+      // 'post-deploy': 'cp ../.env ./ && npm install && pm2 startOrRestart
+      // ecosystem.config.js --env production',
     },
   },
 };
