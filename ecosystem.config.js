@@ -12,7 +12,7 @@ module.exports = {
   deploy: {
     production: {
       user: 'nodejs',
-      host: 'http://reactify.azurewebsites.net',
+      host: 'reactify.azurewebsites.net',
       ref: 'origin/master',
       repo: 'https://github.com/jamzhill/meetup',
 

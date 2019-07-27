@@ -61,6 +61,6 @@ typings/
 .next
 
 # help doc
-help.txt
+*.txt
 
 ~$*.pptx
